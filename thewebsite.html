@@ -7,6 +7,7 @@
  <meta name="description" content="Skim&Scan">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -69,7 +70,7 @@
                  <h1>Skim&Scan</h1>
 
                 <p> Skim&Scan is an online content sharing platform,that allows people from the academic community to create and share their work,at the Vishveshvaraya Technological University.</p>
-                <p><a class="btn btn-primary btn-lg">Learn More <i class="glyphicon glyphicon-chevron-right"></i></a>
+                <p><a id="btn-learn-more">Learn More <i class="glyphicon glyphicon-chevron-right"></i></a>
                 </p>
             </div>
         </div>
@@ -150,10 +151,9 @@
    	  <h2>All career content right here.</h2>
            <p>Create,Share,Enlighten.</p>
             <div class="btn-group">
-              <a href="" class="btn btn-lg btn-info"> Downloads</a>
-   	      <a href="" class="btn btn-lg btn-danger"> Upload Content</a>
-   	      <a href="" class="btn btn-lg btn-success">Contribute</a>
-   	
+              <a href="" id="btn-download"> Downloads</a>
+   	          <a href="" id="btn-upload"> Upload Content</a>
+   	          <a href="" id="btn-contribute">Contribute</a>
             </div>
         </div><!--close the container--->
      </div><!--end jumbotron-->
@@ -282,7 +282,7 @@
                    <div class="panel panel-default text-center">
                      <div class="panel-body">
                         <button type="button" class="btn btn-default btn-lg">
-                       <span class="glyphicon glyphicon-education" style="vertical-align:middle"></span>
+                       <a href="knowledgesharing.html"><span class="glyphicon glyphicon-education" style="vertical-align:middle"></span></a>
                         </button>
                         <h4>Knowldege Sharing</h4>
                          <p>Using Skim&Scan one can access academic material that is created by a community of students, teachers and professors. The content can be uploaded by using the upload link. The aim is to build a well organized archive of materials that is suitable for VTU syllabus needs.</p>
@@ -472,7 +472,7 @@
                      <labelfor="Email">Email ID</label>
                      <input type="text" class="form-control" id="email" placeholder="Enter your email">
                   </div>
-                  <button type="submit" class="btn btn-warning">Submit</button>
+                  <a href="" id="btn-submit"> Submit</a>
                   
                </form>
 
